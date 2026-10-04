@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joaquin Alejandro Bobbio · Desarrollador Full Stack</title>
+    <meta name="description" content="Programo desde 2023. Desarrollo aplicaciones web completas con React, Next.js, Node.js y PostgreSQL: APIs REST y GraphQL, tiempo real con WebSockets, pagos, colas con Redis e integración con IA, con pruebas automáticas y Docker.">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav-principal" data-bs-offset="80">
+
+<nav id="nav-principal" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">&lt;Joaquin /&gt;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#stack">Stack</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="inicio" class="hero d-flex align-items-center">
+    <div class="container">
+        <p class="text-acento mb-2 font-mono">&lt;?php echo "Hola, soy"; ?&gt;</p>
+        <h1 class="display-4 fw-bold mb-3">Joaquin Alejandro Bobbio</h1>
+        <h2 class="h3 text-secundario mb-4">Desarrollador Full Stack</h2>
+        <p class="lead col-lg-7 mb-4">Programo desde 2023. Desarrollo aplicaciones web completas con React, Next.js, Node.js y PostgreSQL: APIs REST y GraphQL, tiempo real con WebSockets, pagos, colas con Redis e integración con IA, con pruebas automáticas y Docker.</p>
+        <div class="d-flex flex-wrap gap-2">
+            <a href="#proyectos" class="btn btn-acento btn-lg">Ver proyectos</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-8">
+                                        <p>Desarrollo software desde 2023. Hice tiendas online para clientes reales con Next.js y una plataforma de cursos de IA completa: API en Node.js con REST y GraphQL, PostgreSQL, colas en Redis, clases en vivo con Socket.io, pagos con Mercado Pago y un tutor que usa la API de Claude.</p>
+                                        <p>Me interesa que lo que hago funcione de punta a punta y se pueda mantener: pruebas automáticas, integración continua, contenedores y documentación. También me gusta explicar: escribí los cursos de esa plataforma pensando en personas que no programan.</p>
+                                        <p class="mb-0"><strong>Formación:</strong> Licenciatura en Programación, Universidad Nacional de Hurlingham (en curso)</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-3 text-center">
+                        <div class="col-6"><div class="dato"><span class="dato-num">3+</span><span>años programando</span></div></div>
+                        <div class="col-6"><div class="dato"><span class="dato-num" id="dato-proyectos">22</span><span>proyectos en el portafolio</span></div></div>
+                        <div class="col-12"><div class="dato"><span class="dato-num"><i class="bi bi-geo-alt"></i></span><span>Buenos Aires · presencial o híbrido</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="py-5 seccion-alt">
+        <div class="container">
+            <h2 class="titulo-seccion">Stack</h2>
+            <div class="row g-4">
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Frontend</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> React 19</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Next.js (App Router)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> TypeScript</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> HTML5 y CSS3</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Backend</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> Node.js + Express</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> API REST y GraphQL</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> WebSockets (Socket.io)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Colas con Redis (BullMQ)</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Datos</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> PostgreSQL</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Redis</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> SQL (transacciones, JOIN)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> MySQL</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Infra y calidad</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> Docker y Docker Compose</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> GitHub Actions (CI)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Vitest y Playwright</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Mercado Pago y API de Claude</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <div class="btn-group flex-wrap mb-4" role="group" aria-label="Filtrar proyectos" id="filtros" data-enfoque="fullstack">
+                                <button type="button" class="btn btn-outline-light active" data-etiqueta="todos">Todos</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="fullstack">Full stack (Node / Next.js)</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="real">Clientes reales</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="web">Web</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="sistemas">C / C++ · Python · Java</button>
+                            </div>
+            <div class="row g-4" id="lista-proyectos">
+                <div class="col-12 text-center py-5" id="cargando">
+                    <div class="spinner-border text-light" role="status"><span class="visually-hidden">Cargando…</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5 seccion-alt">
+        <div class="container">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-8">
+                    <p>¿Tenés un proyecto o una búsqueda abierta? Escribime.</p>
+                    <ul class="list-unstyled contacto-links">
+                        <li><i class="bi bi-envelope"></i> <a href="mailto:joa.bobbio@hotmail.com">joa.bobbio@hotmail.com</a></li>
+                        <li><i class="bi bi-github"></i> <a href="https://github.com/Joacuwu" target="_blank" rel="noopener">github.com/Joacuwu</a> (código de todos los proyectos)</li>
+                        <li><i class="bi bi-geo-alt"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="py-4 text-center small text-secundario">
+    &copy; 2026 Joaquin Alejandro Bobbio · Versión estática de este portafolio, hecho con PHP, MySQL, Bootstrap y jQuery · <a href="https://github.com/Joacuwu/portafolio" target="_blank" rel="noopener">código</a>
+</footer>
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="assets/js/datos-estaticos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

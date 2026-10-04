@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joaquin Alejandro Bobbio · Programador COBOL Junior</title>
+    <meta name="description" content="Programo desde 2023. Desarrollo programas COBOL batch y en línea: archivos secuenciales e indexados, copybooks, SORT, cortes de control, validación de datos y manejo de códigos de retorno, con pruebas automáticas de cada programa.">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav-principal" data-bs-offset="80">
+
+<nav id="nav-principal" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">&lt;Joaquin /&gt;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#stack">Stack</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="inicio" class="hero d-flex align-items-center">
+    <div class="container">
+        <p class="text-acento mb-2 font-mono">&lt;?php echo "Hola, soy"; ?&gt;</p>
+        <h1 class="display-4 fw-bold mb-3">Joaquin Alejandro Bobbio</h1>
+        <h2 class="h3 text-secundario mb-4">Programador COBOL Junior</h2>
+        <p class="lead col-lg-7 mb-4">Programo desde 2023. Desarrollo programas COBOL batch y en línea: archivos secuenciales e indexados, copybooks, SORT, cortes de control, validación de datos y manejo de códigos de retorno, con pruebas automáticas de cada programa.</p>
+        <div class="d-flex flex-wrap gap-2">
+            <a href="#proyectos" class="btn btn-acento btn-lg">Ver proyectos</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-8">
+                                        <p>Desarrollo software desde 2023. Para trabajar con COBOL hice dos proyectos con GnuCOBOL: un proceso batch bancario de cinco pasos (carga, validación, ordenamiento, actualización del maestro y listado) orquestado como un JCL, y un ABM de clientes con pantalla y un módulo servidor al estilo CICS que se llama con COMMAREA.</p>
+                                        <p>Me interesa el código que tiene que funcionar todos los días sin errores: validar cada dato, controlar cada FILE STATUS y dejar el proceso documentado para quien lo opere. También programo en C, Java, Python y PHP.</p>
+                                        <p class="mb-0"><strong>Formación:</strong> Licenciatura en Programación, Universidad Nacional de Hurlingham (en curso)</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-3 text-center">
+                        <div class="col-6"><div class="dato"><span class="dato-num">3+</span><span>años programando</span></div></div>
+                        <div class="col-6"><div class="dato"><span class="dato-num" id="dato-proyectos">22</span><span>proyectos en el portafolio</span></div></div>
+                        <div class="col-12"><div class="dato"><span class="dato-num"><i class="bi bi-geo-alt"></i></span><span>Buenos Aires · híbrido</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="py-5 seccion-alt">
+        <div class="container">
+            <h2 class="titulo-seccion">Stack</h2>
+            <div class="row g-4">
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">COBOL</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> COBOL (GnuCOBOL 3)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Copybooks, REDEFINES y niveles 88</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> COMP-3 (empaquetado)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> SORT y cortes de control</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Archivos</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> Secuenciales e indexados (VSAM KSDS)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Claves alternativas</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> FILE STATUS</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Acceso RANDOM y DYNAMIC</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Mainframe</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> JCL (pasos, DD, COND)</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Programas batch y en línea</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> CALL con COMMAREA</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Códigos de retorno</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-sm-6 col-lg-3">
+                    <div class="card h-100 tarjeta">
+                        <div class="card-body">
+                            <h3 class="h5 text-acento">Herramientas</h3>
+                            <ul class="list-unstyled mb-0">
+                                                                <li><i class="bi bi-check2 text-acento"></i> Linux y shell</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Git / GitHub</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> Make</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> SQL</li>
+                                                                <li><i class="bi bi-check2 text-acento"></i> C, Java y Python</li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <div class="btn-group flex-wrap mb-4" role="group" aria-label="Filtrar proyectos" id="filtros" data-enfoque="cobol">
+                                <button type="button" class="btn btn-outline-light active" data-etiqueta="todos">Todos</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="cobol">COBOL</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="sistemas">C / C++ · Python · Java</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="real">Clientes reales</button>
+                                <button type="button" class="btn btn-outline-light" data-etiqueta="web">Web</button>
+                            </div>
+            <div class="row g-4" id="lista-proyectos">
+                <div class="col-12 text-center py-5" id="cargando">
+                    <div class="spinner-border text-light" role="status"><span class="visually-hidden">Cargando…</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5 seccion-alt">
+        <div class="container">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-8">
+                    <p>¿Tenés un proyecto o una búsqueda abierta? Escribime.</p>
+                    <ul class="list-unstyled contacto-links">
+                        <li><i class="bi bi-envelope"></i> <a href="mailto:joa.bobbio@hotmail.com">joa.bobbio@hotmail.com</a></li>
+                        <li><i class="bi bi-github"></i> <a href="https://github.com/Joacuwu" target="_blank" rel="noopener">github.com/Joacuwu</a> (código de todos los proyectos)</li>
+                        <li><i class="bi bi-geo-alt"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="py-4 text-center small text-secundario">
+    &copy; 2026 Joaquin Alejandro Bobbio · Versión estática de este portafolio, hecho con PHP, MySQL, Bootstrap y jQuery · <a href="https://github.com/Joacuwu/portafolio" target="_blank" rel="noopener">código</a>
+</footer>
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="assets/js/datos-estaticos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
