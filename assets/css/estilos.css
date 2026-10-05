@@ -69,5 +69,6 @@ a:hover { color: #fff; }
 
 .contacto-links li { padding: .35rem 0; }
 .contacto-links i { color: var(--acento-fuerte); margin-right: .5rem; }
+.contacto-links .btn i { color: inherit; margin-right: .35rem; }
 
 footer { border-top: 1px solid var(--borde); }
